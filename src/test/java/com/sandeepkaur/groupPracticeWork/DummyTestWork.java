@@ -24,6 +24,12 @@ public class DummyTestWork extends BaseClass{
 //		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
 		Assert.assertEquals("My Account", "User not logged in");
 	}
+	@Test
+	public void DemoTest() {
+//		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		Assert.assertEquals("My Account", "User not logged in");
+	}
+	
 	
 	@AfterMethod
 	public void quitBrowser() {
