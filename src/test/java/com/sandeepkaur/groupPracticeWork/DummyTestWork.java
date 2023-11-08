@@ -31,6 +31,11 @@ public class DummyTestWork extends BaseClass{
 		Assert.assertTrue(true);
 		Assert.assertEquals("My Account", "User not logged in");
 	}
+	@Test
+	public void dummyTest3() {
+		Assert.assertTrue(true);
+		Assert.assertEquals("My Account", "User cannot logged in");
+	}
 	@AfterMethod
 	public void quitBrowser() {
 		tearDown();
