@@ -23,8 +23,14 @@ public class DummyTestWork extends BaseClass{
 	public void validateUserCanLoginWithValidCredentials() {
 //		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
 		Assert.assertEquals("My Account", "User not logged in");
+		
 	}
 	
+	@Test
+	public void dummyTest1() {
+		Assert.assertTrue(true);
+		Assert.assertEquals("My Account", "User not logged in");
+	}
 	@AfterMethod
 	public void quitBrowser() {
 		tearDown();
